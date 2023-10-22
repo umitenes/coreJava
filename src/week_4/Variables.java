@@ -8,6 +8,11 @@ public class Variables {
         float diameter=13.45f;
         double pi=3.14;
 
+        System.out.println("args = " + args);
+
+        System.out.println("hello"+salary);
+        System.out.println(salary+pi+"ter"+diameter);
+
 
 
 
