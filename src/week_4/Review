@@ -1,0 +1,41 @@
+Topics:
+    Comments & Escape Sequences
+    Variables
+    Primitive Castings, Concatenation, Arithmetic
+    Operators, Unary, Shorthand, Relational, Logical
+
+
+Primitive Type Castings
+Operators
+Variables
+soutv
+200_000
+long  l - L
+float f - F
+primitive data types
+       double > float > long > int > short > byte
+char
+boolean
+String
+Split view
+String Concatenation
+Escape sequences: MUST be given with double quote
+     \n : starts a new line
+     \t : paragraph space(tab)
+     \\ : single back slash
+    \" : double quote
+
+main method
+print statement (println() )
+How to create project?   File -> new -> Project
+How to rename?   right click -> refactor -> rename
+src folder: used for storing packages
+ package: used for storing java files in anorganized manner
+right click src folder -> new -> package
+package name starts with lower case letter CamelCase
+Java File:    right click PACKAGE -> new -> Java Class
+class name starts with upper case ltter  CamelCase
+formatting the codes:  windows   ctrl + alt + L
+       Mac:   Command + Option + L
+    1. type "main" + Enter
+    2. type "sout" + Enter

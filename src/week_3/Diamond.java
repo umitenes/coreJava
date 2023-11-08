@@ -1,4 +1,4 @@
-package week_2;
+package week_3;
 
 public class Diamond {
     public static void main(String[] args) {
