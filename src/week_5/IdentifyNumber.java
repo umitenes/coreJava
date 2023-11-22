@@ -1,22 +1,19 @@
 package week_5;
 
+import java.util.Scanner;
+
 public class IdentifyNumber {
     public static void main(String[] args) {
-        int num=-10;
-        boolean isPositive=num>0;
-        boolean isNegative=num<0;
-        boolean isZero=num==0;
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("enter an integer number !");
+        int x=scanner.nextInt();
+        System.out.println("enter a double number");
+        double y=scanner.nextDouble();
 
-        System.out.println(isNegative);
-        System.out.println(isPositive);
-        System.out.println(isZero);
-        System.out.println("isPositive = " + isPositive);
+        System.out.println(x+"  "+y);
 
-        if(num>0) System.out.println("its positive");
-        else if(num<0) System.out.println("ït s negative");
-        else System.out.println("ït s zero");
+scanner.close();
+scanner.nextInt();
 
     }
-
-
 }
