@@ -3,6 +3,31 @@ Switch-Case
    Switch-case statement used to compare the
        value of a variable with multiple values and
        execute some statements based on the match.
+Switch Statement: switch, case, default, break
+
+	syntax:
+		switch(Data){
+
+			case data1:
+					Statements;
+					break;
+
+			case data2:
+					Statements;
+					break;
+
+			default:
+					Statements;
+					break;
+
+		}
+Case value MUST match with switch' data type and UNIQUE
+	Switch' Data can not be long, float, double and boolean data types
+	break: used for exiting the switch.
+			if we don't give the break statement, switch statement continue to execute the next block(s) until the break statement or } of the switch
+	default block gets executed if none of the case blocks matched.
+			there can only be one default block
+	or logic we can use it in switch by declaring case blocks back to back
 
 Scanner Object
    -- Provides the methods to get inputs
@@ -24,3 +49,4 @@ nextDouble()    Returns input as a double
 nextBoolean()   Returns input as a boolean
 next()          Returns input as a String, reads the input only until a space
 nextLine()      Returns input as a String, reads the entire input until the new line (press enter)
+            if we are using nextLine() method after the other methods of scanner, we MUST provide one addition nextLine()
