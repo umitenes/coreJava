@@ -50,3 +50,24 @@ nextBoolean()   Returns input as a boolean
 next()          Returns input as a String, reads the input only until a space
 nextLine()      Returns input as a String, reads the entire input until the new line (press enter)
             if we are using nextLine() method after the other methods of scanner, we MUST provide one addition nextLine()
+
+    1. Circle:
+            1.1 Ask the user to enter the radius of the circle
+            1.1 Calculate the area and perimeter of the circle by using the radius
+
+    2. GradeReport:
+            2.1 Ask the user to enter the his/her score
+            2.2 Print the grade of the student (A, B, C, D, F)
+            2.3 If user enter invalid score (negative or more than 100) print invalid score
+
+    3. SalaryCalculator:
+            3.1 Ask the user to enter his/her hourlyRate
+            3.2 Ask the user how many hours he/she works in a week
+            3.3 Ask the user to enter state tax (in percentage)
+            3.4 Ask the user to enter federal tax (in percentage)
+            3.5 Calculate the:
+                    3.4.1 salary
+                    3.4.2 stateTax
+                    3.4.3 federalTax
+                    3.4.4 totalTax
+                    3.4.5 netIncome
