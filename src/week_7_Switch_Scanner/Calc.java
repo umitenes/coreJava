@@ -1,4 +1,4 @@
-package week_7;
+package week_7_Switch_Scanner;
 import java.util.Scanner;
 public class Calc {
     public static void main(String[] args) {

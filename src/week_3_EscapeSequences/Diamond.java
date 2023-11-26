@@ -1,4 +1,4 @@
-package week_3;
+package week_3_EscapeSequences;
 
 public class Diamond {
     public static void main(String[] args) {

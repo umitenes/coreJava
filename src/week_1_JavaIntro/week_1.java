@@ -1,4 +1,4 @@
-package week_1;
+package week_1_JavaIntro;
 
 public class week_1 {
     /*

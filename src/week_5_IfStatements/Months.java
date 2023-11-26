@@ -1,4 +1,4 @@
-package week_5;
+package week_5_IfStatements;
 
 public class Months {
     public static void main(String[] args) {

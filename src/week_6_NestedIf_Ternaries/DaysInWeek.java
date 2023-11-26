@@ -1,4 +1,4 @@
-package week_6;
+package week_6_NestedIf_Ternaries;
 
 public class DaysInWeek {
 

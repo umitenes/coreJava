@@ -1,4 +1,4 @@
-package week_6;
+package week_6_NestedIf_Ternaries;
 public class DaysMonth {
     public static void main(String[] args) {
         int month=20;

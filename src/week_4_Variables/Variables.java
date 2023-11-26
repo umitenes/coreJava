@@ -1,4 +1,4 @@
-package week_4;
+package week_4_Variables;
 
 public class Variables {
     public static void main(String[] args) {
