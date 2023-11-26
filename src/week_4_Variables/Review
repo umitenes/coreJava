@@ -1,5 +1,4 @@
 Topics:
-    Comments & Escape Sequences
     Variables
     Primitive Castings, Concatenation, Arithmetic
     Operators, Unary, Shorthand, Relational, Logical
@@ -19,11 +18,7 @@ boolean
 String
 Split view
 String Concatenation
-Escape sequences: MUST be given with double quote
-     \n : starts a new line
-     \t : paragraph space(tab)
-     \\ : single back slash
-    \" : double quote
+
 
 main method
 print statement (println() )
