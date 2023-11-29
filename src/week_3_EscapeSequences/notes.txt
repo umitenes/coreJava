@@ -21,11 +21,9 @@ Warmup tasks:
 			        * * * * * *
 			        * * * * * * *
 
-
  System.err.println(): used for printing error messages (red color)
 
  System.out.println(): regular outputs (black color)
-
 
 println() vs print():
 		

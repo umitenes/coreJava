@@ -1,5 +1,4 @@
 package week_3_EscapeSequences;
-
 public class Triangle {
 
     public static void main(String[] args) {
