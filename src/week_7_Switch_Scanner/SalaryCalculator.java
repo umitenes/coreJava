@@ -1,5 +1,7 @@
 package week_7_Switch_Scanner;
 
+import java.util.Scanner;
+
 public class SalaryCalculator {
   /*  . SalaryCalculator:
             3.1 Ask the user to enter his/her hourlyRate
@@ -13,8 +15,19 @@ public class SalaryCalculator {
                 3.4.4 totalTax
                 3.4.5 netIncome
    */
+  public static void main(String[] args) {
+      Scanner input =new Scanner(System.in);
+      System.out.println("What's your hourly rate?");
+      double hourlyRate=input.nextDouble();
+      System.out.println("How many hours are you  working in a week?");
+      int hoursWeek=input.nextInt();
+      System.out.println("What is the state tax?");
+      double stateTax=input.nextDouble();
+      System.out.println("What is the federal tax?");
+      double federalTax=input.nextDouble();
 
+      double salary, totalTax,netIncome;
+      System.out.println("Salary : "+ ((hourlyRate*hoursWeek)-(stateTax*federalTax)));
 
-
-
+  }
 }
