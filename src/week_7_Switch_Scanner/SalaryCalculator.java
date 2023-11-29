@@ -27,7 +27,10 @@ public class SalaryCalculator {
       double federalTax=input.nextDouble();
 
       double salary, totalTax,netIncome;
-      System.out.println("Salary : "+ ((hourlyRate*hoursWeek)-(stateTax*federalTax)));
+      salary=hourlyRate*hoursWeek;
+      totalTax=stateTax*federalTax;
+      netIncome=salary-totalTax;
+      System.out.println("Salary : "+netIncome+" $");
 
   }
 }
