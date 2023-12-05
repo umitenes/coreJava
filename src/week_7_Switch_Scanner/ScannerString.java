@@ -5,7 +5,6 @@ public class ScannerString {
         Scanner scan=new Scanner(System.in);
         String name=scan.nextLine();
         System.out.println("name = " + name);
-
         byte num=scan.nextByte();
         System.out.println("num = " + num);
 

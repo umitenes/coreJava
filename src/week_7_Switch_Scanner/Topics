@@ -33,7 +33,6 @@ Scanner Object
    -- Provides the methods to get inputs
    -- Presented in java.util package
    -- Need to be imported in our program
-
          import java.util.Scanner
 
          Scanner input=new Scanner(System.in);

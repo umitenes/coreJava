@@ -1,11 +1,7 @@
 package week_7_Switch_Scanner;
-
 import java.util.Scanner;
-
 public class ScannerPractice3_NextLine {
-
     public static void main(String[] args) {
-
         //123Enter
         Scanner input = new Scanner(System.in); //
 
@@ -29,7 +25,5 @@ public class ScannerPractice3_NextLine {
         System.out.println("schoolName = " + schoolName);
 
         input.close();
-
     }
-
 }

@@ -1,11 +1,7 @@
 package week_7_Switch_Scanner;
-
 import java.util.Scanner;
-
 public class ScannerIntro {
-
     public static void main(String[] args) {
-
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter an integer:");
@@ -15,7 +11,6 @@ public class ScannerIntro {
         System.out.println("Enter a decimal:");
 
         double num2 = input.nextDouble();
-
 
         System.out.println(num1);
         System.out.println(num2);
@@ -29,8 +24,5 @@ public class ScannerIntro {
         System.out.println(num3);
 
  */
-
     }
-
-
 }

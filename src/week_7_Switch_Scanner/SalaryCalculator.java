@@ -25,7 +25,6 @@ public class SalaryCalculator {
       double stateTax=input.nextDouble();
       System.out.println("What is the federal tax?");
       double federalTax=input.nextDouble();
-
       double salary, totalTax,netIncome;
       salary=hourlyRate*hoursWeek;
       totalTax=stateTax*federalTax;

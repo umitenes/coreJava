@@ -1,4 +1,4 @@
-package week_7_Switch_Scanner;
+package week_6_NestedIf_Ternaries;
 
 public class NumberToWords {
 
@@ -13,10 +13,7 @@ public class NumberToWords {
                 : "Invalid Number";
 
         System.out.println(result);
-
-
     }
-
 }
 
 /*

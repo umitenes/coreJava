@@ -1,7 +1,5 @@
 package week_7_Switch_Scanner;
-
 public class DaysInWeek {
-
     public static void main(String[] args) {
 
        // long number = 9L;
@@ -9,7 +7,6 @@ public class DaysInWeek {
        // double number = 9D;
       //  boolean number = true;
         int number = 9;
-
         /*
         if(number == 1){
             System.out.println("Monday");

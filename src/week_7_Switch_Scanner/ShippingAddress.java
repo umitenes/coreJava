@@ -1,9 +1,6 @@
 package week_7_Switch_Scanner;
-
 import java.util.Scanner;
-
 public class ShippingAddress {
-
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in); //EnterEnter
 
@@ -32,14 +29,8 @@ public class ShippingAddress {
         System.out.println("Enter your country name: ");
         String country = scan.nextLine();
 
-
-
-
         scan.close();
-
     }
-
-
 }
 
 /*

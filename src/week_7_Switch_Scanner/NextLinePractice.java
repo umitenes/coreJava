@@ -3,7 +3,6 @@ package week_7_Switch_Scanner;
 import java.util.Scanner;
 
 public class NextLinePractice {
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -23,16 +22,11 @@ public class NextLinePractice {
         System.out.println("Enter your school name: ");
         String schoolName = input.nextLine();
 
-
         System.out.println("age = " + age);
         System.out.println("fullName = " + fullName);
         System.out.println("gpa = " + gpa);
         System.out.println("schoolName = " + schoolName);
-
-
         input.close();
-
-
     }
 
 }

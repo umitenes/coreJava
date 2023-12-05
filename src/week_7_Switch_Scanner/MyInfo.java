@@ -46,7 +46,6 @@ public class MyInfo {
 
         scan.close();
 
-
         System.out.println("Full name: " + fullName);
         System.out.println("Age: "+age);
         System.out.println("Gender: "+gender);
@@ -54,15 +53,7 @@ public class MyInfo {
         System.out.println("Address: \n\t"+buildingNum+" "+street+"\n\t"+city+", "+state+" "+zipCode);
         System.out.println("School name: "+schoolName);
 
-
-
-
-
-
-
-
     }
-
 }
 /*
 1. Create a class called MyInfo. Write a program that can ask the user to:
@@ -79,7 +70,7 @@ public class MyInfo {
 
 		MAKE SURE USER CAN ENTER ALL THE INPUT
 
-		Display all the inputs that user entered in following order in sperate lines:
+		Display all the inputs that user entered in following order in separate lines:
 
 			1. full name
 			2. age

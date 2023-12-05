@@ -1,5 +1,4 @@
 Topic: String Class
-
 String: presented in "java.lang" package
 		Any class in "java.lang" package can be imported implicitly
 
