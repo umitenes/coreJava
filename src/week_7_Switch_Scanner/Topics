@@ -29,7 +29,7 @@ Case value MUST match with switch' data type and UNIQUE
 			there can only be one default block
 	or logic we can use it in switch by declaring case blocks back to back
 
-Scanner Object
+Scanner Class
    -- Provides the methods to get inputs
    -- Presented in java.util package
    -- Need to be imported in our program

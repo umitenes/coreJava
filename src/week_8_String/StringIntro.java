@@ -1,4 +1,7 @@
 package week_8_String;
+
+import java.util.Scanner;
+
 //import java.lang.String; implicitly done
 public class StringIntro {
     public static void main(String[] args) {
@@ -18,6 +21,7 @@ public class StringIntro {
 
         String str="Java !";
         System.out.println("str = " + str.charAt(0));
+
 
     }
 }
