@@ -36,8 +36,8 @@ Lesson Plan;
     in java, always use methods with strings
 
     15) case sensitive, Methods; .equals() --> just checks the values, charAt(), length(),
-    toLowerCase(), toUpperCaase,
-    16) Create a class Initials, then findout name and surnames initials with charAt()
+    toLowerCase(), toUpperCase,
+    16) Create a class Initials, then find out name and surnames initials with charAt()
     17) index number is Out of range?
 
 
