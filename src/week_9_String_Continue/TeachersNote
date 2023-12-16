@@ -1,0 +1,24 @@
+Lesson Plan ;
+    1) Review
+        Stack and Heap memory,
+        String pool,
+        String Methods; charAt(), length(), toUpperCase(), toLowerCase(), replace()
+    2) String Methods
+        trim(): returns new String without the white spaces (unused spaces)
+        indexOf(str): returns the index number of first occurred character. returns int
+        lastIndexOf(str): returns the index number of last occurred character. returns int
+        substring(beginningIndex , endingIndex): creates substring starting from the given beginning index till the ending
+            String str ="Cydeo School";
+        	str.substring(0,  4+1) ==> Cydeo
+        substring(beginningIndex): creates substring starting from the given beginning index till the end of the string
+            String str ="Cydeo School";
+            str.substring(0,  4+1) ==> Cydeo
+        repeat(count): repeats the string for given number of times. returns string
+        	equals(): checks if two strings have same text, returns boolean
+
+        Question: Write a program that can get the domain of the email. ( Assume that a valid email is given)
+            Ex:
+        		email = Cydeo.School@gmail.com
+            output:
+        		gmail
+        		email = "School.Cydeo@yahoo.com
