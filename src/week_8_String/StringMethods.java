@@ -19,5 +19,7 @@ public class StringMethods {
         str=str.toUpperCase();
         System.out.println("str = " + str);
 
+        int  totalChars=str.replace(" ", "").length();
+        System.out.println("totalChars = " + totalChars);
     }
 }
