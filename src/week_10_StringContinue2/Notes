@@ -1,0 +1,7 @@
+Lesson Plan;
+    repeat(count): repeats the string for given number of times. returns string
+    equals(): checks if two strings have same text, returns boolean
+    equalsIgnoreCase():
+    contains():
+    startsWith():
+    endsWith():
