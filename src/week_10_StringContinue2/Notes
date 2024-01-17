@@ -1,7 +1,7 @@
 Lesson Plan;
     repeat(count): repeats the string for given number of times. returns string
     equals(): checks if two strings have same text, returns boolean
-    equalsIgnoreCase():
-    contains():
-    startsWith():
-    endsWith():
+    equalsIgnoreCase(): Compare strings to find out if they are equal, ignoring case differences, returns boolean
+    contains(): Find out if a string contains a sequence of characters, returns boolean
+    startsWith(): Find out if the string starts with the specified characters, returns boolean
+    endsWith(): Find out if the string ends with the specified characters, returns boolean
