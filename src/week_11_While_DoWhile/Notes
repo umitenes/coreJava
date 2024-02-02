@@ -38,3 +38,14 @@ Note that a semicolon is required after (expression)
 		 //			      0123
 
 3. Write a program that can calculate the sum of all integers between 1 to 100
+4. Write a program that can return the frequency of a char from a String
+			Ex:
+				str = "AAABBBC"
+				ch = 'A'
+			Output:
+				3
+
+5. write a program that can return the frequency of the a word Java from the sentence
+        Ex:
+            sentence = "JavaJavaJava";
+        output: 3
