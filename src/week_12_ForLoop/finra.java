@@ -1,18 +1,18 @@
 package week_12_ForLoop;
 public class finra {
     public static void main(String[] args) {
-        for(int i = 1; i <= 100; i++){ // i: 1,2,3,... 100
 
-            if(i % 15 == 0){ // 15, 30, 45, 60, 75, 90
-                System.out.print("FINRA ");
-            }else if(i % 3 ==0){ //3, 6, 9, 12... 99
+        for(int x=1;x<=100;x++){
+
+            if(x%3==0){
                 System.out.print("FIN ");
-            }else if(i % 5 ==0){ //5, 10, 15, 20... 100
+            } else if(x%5==0){
                 System.out.print("RA ");
-            }else{ //1, 2, 4, 7 ....
-                System.out.print(i+" ");
+            } else if (x%15==0)
+                System.out.print("FINRA ");
+            else {
+                System.out.print(x+" ");
             }
-
         }
     }
 }
